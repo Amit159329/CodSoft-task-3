@@ -1,0 +1,47 @@
+ .container{
+    max-width: 400px;
+    background-color: white;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px #8fe6df;
+    border-radius: 20px;
+    border:  5px solid black;
+ }
+ body{
+    background-color: #08675f;
+ }
+ #main{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border-bottom: 5px solid black;
+ }
+ .buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+ 
+ .button{
+    
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px grey;
+    
+ }
+ #differ{
+    background-color: #afaa06;
+    color:black;
+    border-bottom-right-radius:50%;
+ }
+ .button:hover{
+    background-color: #08675f;
+    color: white;
+    transition: 0.2s ease-in-out;
+ }
+ #differ:hover{
+    font-size: 50px;
+ }
